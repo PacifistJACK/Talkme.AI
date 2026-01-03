@@ -1,6 +1,6 @@
-# Chinky.AI  
+# VoiceAssistant.AI  
 
-**Chinky.AI** is an interactive voice assistant powered by speech recognition, text-to-speech technology, and a pre-trained LLaMA model via the Groq API. Chinky can perform a variety of tasks such as fetching news, telling the time or date, opening popular websites, and responding intelligently to user queries using AI.  
+**VoiceAssistant.AI** is an interactive voice assistant powered by speech recognition, text-to-speech technology, and a pre-trained LLaMA model via the Groq API. Chinky can perform a variety of tasks such as fetching news, telling the time or date, opening popular websites, and responding intelligently to user queries using AI.  
 
 ---
 
