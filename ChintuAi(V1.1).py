@@ -59,7 +59,7 @@ def aiprocess(command):
 
 def processcmd(c):
     if "your name" in c.lower():
-        speak(f"My Name is Chinky")
+        speak(f"My Name is Chintu")
     elif "open google" in c.lower():
         speak("Opening Google!")
         wb.open("www.google.com")
@@ -85,7 +85,7 @@ def processcmd(c):
     else:
         while True:
             response = aiprocess(c)
-            print("Chinky: " + response)
+            print("Chintu: " + response)
             speak(response)
 
             with sr.Microphone() as source:
@@ -101,7 +101,7 @@ def processcmd(c):
                 except sr.WaitTimeoutError:
                     print("Listening timed out while waiting for phrase to start")
                 except sr.UnknownValueError:
-                    print("Chinky couldn't understand")
+                    print("Chintu couldn't understand")
                 except sr.RequestError as e:
                     print(f"BoomaBam Error {e}")
 
@@ -123,7 +123,7 @@ if __name__ == "__main__":
                 command = r.recognize_google(audio)
                 # print(f"You said: {command}")
 
-                if command.lower() == "chinky":  # For commanding her
+                if command.lower() == "chintu":  # For commanding her
                     speak("Yes, sir!")
                     with sr.Microphone() as source:
                         print("Ready!")
@@ -139,7 +139,8 @@ if __name__ == "__main__":
             except sr.WaitTimeoutError:
                 print("Listening timed out while waiting for phrase to start")
             except sr.UnknownValueError:
-                print("Chinky couldn't understand")
+                print("Chintu couldn't understand")
             except sr.RequestError as e:
                 print(f"BoomaBam Error {e}")
+
 
