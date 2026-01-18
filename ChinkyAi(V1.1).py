@@ -35,7 +35,7 @@ def speak(t):
     eng.runAndWait()
 
 def aiprocess(command):
-    client = Groq(api_key='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')
+    client = Groq(api_key='PasteYourGorqAPIkey')
     completion = client.chat.completions.create(
         model="llama3-8b-8192",
         messages=[
@@ -142,3 +142,4 @@ if __name__ == "__main__":
                 print("Chinky couldn't understand")
             except sr.RequestError as e:
                 print(f"BoomaBam Error {e}")
+
